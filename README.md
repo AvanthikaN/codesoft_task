@@ -1,23 +1,23 @@
-# Titanic Survival Prediction
+# CodSoft Data Science Internship
 
-## CodSoft Data Science Internship - Task 1
+Welcome to my CodSoft Data Science Internship repository. This repository contains the machine learning projects completed as part of the internship.
 
-### Project Objective
-The objective of this project is to build a machine learning model that predicts whether a passenger survived the Titanic disaster based on passenger information.
+## Tasks Completed
 
-### Dataset
-- Titanic Dataset
-- Total Records: 891
-- Features Used:
-  - Passenger Class (Pclass)
-  - Sex
-  - Age
-  - Fare
-  - Embarked
-  - SibSp
-  - Parch
+### Task 1: Titanic Survival Prediction
+- Built a classification model to predict whether a passenger survived the Titanic disaster.
+- Algorithm Used: Decision Tree Classifier
 
-### Technologies Used
+### Task 2: Movie Rating Prediction with Python
+- Built a regression model to predict movie ratings using features such as genre, director, actors, year, duration, and votes.
+- Algorithm Used: Random Forest Regressor
+
+### Task 3: Iris Flower Classification
+- Built a classification model to identify Iris flower species based on sepal and petal measurements.
+- Algorithm Used: Decision Tree Classifier
+
+## Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -26,20 +26,28 @@ The objective of this project is to build a machine learning model that predicts
 - Scikit-learn
 - Jupyter Notebook
 
-### Machine Learning Model
-- Decision Tree Classifier
+## Repository Structure
 
-### Project Workflow
-1. Import the required libraries.
-2. Load the Titanic dataset.
-3. Perform data cleaning and preprocessing.
-4. Convert categorical data into numerical format.
-5. Split the dataset into training and testing sets.
-6. Train the Decision Tree model.
-7. Evaluate the model using accuracy and classification metrics.
+```
+codsoft_tasks/
+│
+├── README.md
+├── Task1_Titanic_Survival_Prediction/
+├── Task2_Movie_Rating_Prediction/
+└── Task3_Iris_Flower_Classification/
+```
 
-### Result
-The model successfully predicts whether a passenger survived based on the available features.
+## About
 
-### Author
-**Avanthika N**
+These projects demonstrate the complete machine learning workflow, including:
+- Data preprocessing
+- Data visualization
+- Feature engineering
+- Model training
+- Model evaluation
+
+## Author
+
+**Avanthika**
+
+CodSoft Data Science Internship
